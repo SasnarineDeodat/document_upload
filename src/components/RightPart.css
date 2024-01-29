@@ -5,19 +5,11 @@
     justify-content: center;
 }
 
-;
-
 .RightPart-child {
     display: flex;
     width: 100%;
     flex-direction: column;
 }
-
-;
-
-
-
-
 
 .RightPart-p1 {
     display: flex;
@@ -47,10 +39,6 @@
     gap: 10px;
 }
 
-
-
-
-
 .RightPart-p2 {
     display: flex;
     flex-direction: column;
@@ -71,12 +59,6 @@
     color: rgb(3, 149, 3);
     font-size: 16px;
 }
-
-;
-
-
-
-
 
 .RightPart-p3 {
     display: flex;
@@ -104,16 +86,12 @@
     gap: 10px;
 }
 
-;
-
 .testers {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 15px
 }
-
-;
 
 .testers-container {
     display: flex;
@@ -122,8 +100,18 @@
     width: 100%;
 }
 
-;
-
 .testers-container>div {
     display: flex;
+}
+
+@media (max-width: 768px) {
+    .RightPart-parent {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .RightPart-parent {
+        width: 100%;
+    }
 }
