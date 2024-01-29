@@ -24,6 +24,7 @@ const UploadField = () => {
           Upload Manifest
         </button>
       </label>
+      <hr className="underline" />
     </div>
   );
 };

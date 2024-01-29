@@ -64,6 +64,10 @@ input[type=file] {
     transition: background .2s ease-in-out;
 }
 
+.underline {
+    border-top: rgba(19, 68, 97, 0.6) 1px solid;
+    margin-top: 18px;
+}
 
 @media (max-width: 1024px) {
     .drop-container {
