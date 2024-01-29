@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 25px 10px;
 }
 
 .RightPart-child {
@@ -113,5 +114,22 @@
 @media (max-width: 480px) {
     .RightPart-parent {
         width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .RightPart-p1,
+    .RightPart-p2,
+    .RightPart-p3,
+    .swichers,
+    .swichers2,
+    .testers {
+        gap: 10px;
+    }
+
+    .swichers div,
+    .swichers2 div {
+        gap: 5px;
     }
 }
