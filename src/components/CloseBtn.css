@@ -1,0 +1,13 @@
+.close_btn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.close_btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
