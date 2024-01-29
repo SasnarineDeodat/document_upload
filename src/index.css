@@ -8,3 +8,9 @@
   padding: 40px;
   position: relative;
 }
+
+;
+
+.app-container {
+  display: flex;
+}

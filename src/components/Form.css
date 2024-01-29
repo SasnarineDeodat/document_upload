@@ -4,8 +4,10 @@
 }
 
 .upload_heading {
-    color: rgb(19, 68, 97);
+    border-top: rgba(19, 68, 97, 0.6) 1px solid;
+    padding-top: 20px;
+    width: 35%;
     font-size: 16px;
-    margin: 20px 0;
+    margin: -10px 0px 18px;
     font-weight: bold;
 }
