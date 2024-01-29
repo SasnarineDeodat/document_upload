@@ -1,4 +1,10 @@
+import DocumentUpload from "./components/DocumentUpload";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <DocumentUpload />
+    </div>
+  );
 };
 export default App;
