@@ -36,8 +36,8 @@
 }
 
 input[type=file] {
-    width: 100%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 200px;
     color: #444;
     padding: 5px;
     background: #fff;
