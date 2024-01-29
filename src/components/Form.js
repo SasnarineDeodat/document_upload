@@ -22,7 +22,9 @@ const Form = () => {
           <UploadField />
         </div>
       </div>
-      <RightPart />
+      <div style={{ marginLeft: "25px" }}>
+        <RightPart />
+      </div>
     </div>
   );
 };
