@@ -33,12 +33,14 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-weight: bold;
 }
 
 .btn2 {
     border: 2px solid goldenrod;
     cursor: pointer;
     color: goldenrod;
+    font-weight: bold;
     transition: all 0.3s ease-in-out;
 }
 
