@@ -65,7 +65,6 @@
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    border-bottom: thin gray solid;
 }
 
 .RightPart-p3>span {
