@@ -1,0 +1,38 @@
+.Buttons-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 20px 0;
+    flex-direction: column;
+}
+
+.Buttons-parent p {
+    color: rgb(19, 68, 97);
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.btns {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 650px;
+}
+
+.btns button {
+    padding: 15px;
+    border-radius: 7px;
+    width: 270px;
+}
+
+.btn1 {
+    background-color: rgb(19, 68, 97);
+    color: white;
+}
+
+.btn2 {
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}

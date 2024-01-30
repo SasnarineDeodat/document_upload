@@ -25,7 +25,7 @@ const Switch = ({ isOn }) => {
         >
           <span className={`react-switch-button`} />
         </label>
-        <span className="toggle_on">
+        <span style={{ marginLeft: 5 }} className="toggle_on">
           {checked ? "Toggle ON" : "Toggle OFF"} |
         </span>
         <div className="image-container">

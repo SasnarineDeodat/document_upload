@@ -1,3 +1,4 @@
+import Buttons from "./components/Buttons/Buttons";
 import DocumentUpload from "./components/DocumentUpload";
 import Form from "./components/Form";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div className="app">
       <DocumentUpload />
       <Form />
+      <Buttons />
     </div>
   );
 };
