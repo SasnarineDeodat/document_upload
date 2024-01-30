@@ -1,14 +1,20 @@
 import "./Select.css";
 
-const Select = ({ fields }) => {
+const Select = ({ fields, placeholder }) => {
   return (
-    <select className="select_name">
-      {fields.map((field) => (
-        <option value={field} key={field}>
-          {field}
-        </option>
-      ))}
-    </select>
+    <div className="custom-select-wrapper">
+      <select
+        name="import_type"
+        className="select_name"
+        placeholder={placeholder}
+      >
+        {fields.map((field) => (
+          <option value={field} key={field}>
+            {field}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 };
 export default Select;

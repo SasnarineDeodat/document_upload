@@ -19,6 +19,7 @@
     margin: -10px 0px 18px;
     font-weight: bold;
     width: 50%;
+    color: rgb(19, 68, 97);
 }
 
 @media screen and (max-width: 768px) {
