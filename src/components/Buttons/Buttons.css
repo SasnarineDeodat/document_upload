@@ -30,9 +30,31 @@
 .btn1 {
     background-color: rgb(19, 68, 97);
     color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn2 {
     border: 2px solid goldenrod;
+    cursor: pointer;
     color: goldenrod;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+    opacity: 0.9;
+}
+
+.btn2:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.btn1:active {
+    opacity: 0.8;
+}
+
+.btn2:active {
+    opacity: 0.8;
 }
