@@ -39,9 +39,36 @@
     width: 60px;
 }
 
-.toggle_on {
+.switch-container {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.clock_img {
     margin-left: 10px;
-    position: relative;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-text {
+    text-align: center;
+    margin-left: auto;
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-text {
+        display: flex;
+        text-align: left;
+        margin-left: 0;
+        writing-mode: vertical-lr;
+    }
 }
