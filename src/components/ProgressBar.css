@@ -20,7 +20,7 @@
     width: 85%;
     background-color: #FFA500;
     border-radius: 50px;
-    margin: 50px 50px 50px 60px;
+    margin: 50px 50px 50px 50px;
     display: flex;
     align-items: center;
 }
@@ -135,4 +135,10 @@
     margin-top: 14px;
     color: rgb(19, 68, 97);
     font-weight: bold;
+}
+
+@media (max-width: 660px) {
+    .progressBarContainer {
+        margin-left: 30px;
+    }
 }
