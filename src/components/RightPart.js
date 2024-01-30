@@ -7,7 +7,7 @@ const RightPart = () => {
       <div className="RightPart-child">
         <div className="RightPart-p1">
           <span>Split schedule using social distanting?</span>
-          <div className="swichers">
+          <div className="switchers">
             <div>
               <input type="radio" value={"Yes"} name="split_schedule" />
               <span>Yes</span>
@@ -24,7 +24,7 @@ const RightPart = () => {
         </div>
         <div className="RightPart-p3" style={{ padding: "15px 0 15px 0" }}>
           <span>Client:</span>
-          <div className="swichers2">
+          <div className="switchers2">
             <div>
               <input type="radio" value={"Single"} name="client" />
               <span>Single</span>
