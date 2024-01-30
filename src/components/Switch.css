@@ -38,3 +38,10 @@
 .react-switch-label:active .react-switch-button {
     width: 60px;
 }
+
+.toggle_on {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+    position: relative;
+}
