@@ -46,6 +46,14 @@
     transform: translateY(-18px);
 }
 
+.progress_bar_underline {
+    width: 100%;
+    border: none;
+    border-top: rgba(19, 68, 97, 0.6) 1px solid;
+    position: relative;
+    bottom: 28px;
+}
+
 @media (max-width: 768px) {
     .progressBarIcon {
         margin-left: -30px;
@@ -70,7 +78,6 @@
     .progressBarIcon {
         margin-left: -20px;
         font-size: 20px;
-        /* Increased font size */
     }
 
     .progressBarText {
