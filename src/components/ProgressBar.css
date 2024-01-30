@@ -49,7 +49,7 @@
 .progress_bar_underline {
     width: 100%;
     border: none;
-    border-top: rgba(19, 68, 97, 0.6) 1px solid;
+    border-top: #e0e0de 1px solid;
     position: relative;
     bottom: 28px;
 }
@@ -67,6 +67,12 @@
     }
 }
 
+.progress_bar2_underline {
+    width: 80%;
+    border: none;
+    border-top: #e0e0de 2px solid;
+    position: relative;
+}
 
 @media (max-width: 768px) {
     .progressBarIcon {
@@ -103,4 +109,10 @@
         font-size: 12px;
         margin-right: -40px;
     }
+}
+
+.elapsed_text {
+    color: rgb(19, 68, 97);
+    font-weight: bold;
+    margin-top: 20px;
 }
