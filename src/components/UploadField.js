@@ -26,7 +26,11 @@ const UploadField = () => {
         </button>
       </label>
       <hr className="underline" />
-      <ProgressBar completed={10} text="WN-DAL-0726-NH20166 csv" />
+      <ProgressBar
+        completed={10}
+        text="WN-DAL-0726-NH20166 csv"
+        numbers="5.7MB"
+      />
     </div>
   );
 };

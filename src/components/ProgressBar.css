@@ -38,3 +38,45 @@
     font-size: 18px;
     transform: translateY(-18px);
 }
+
+.progressBarNumbers {
+    margin-left: auto;
+    margin-right: -62px;
+    color: #e0e0de;
+    font-size: 18px;
+    transform: translateY(-18px);
+}
+
+
+@media (max-width: 768px) {
+    .progressBarIcon {
+        margin-left: -30px;
+        font-size: 20px;
+        transform: translateY(-10px);
+    }
+
+    .progressBarText, .progressBarNumbers {
+        font-size: 14px;
+        transform: translateY(-14px);
+    }
+
+    .progressBarNumbers {
+        margin-right: -50px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .progressBarIcon {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+
+    .progressBarText, .progressBarNumbers {
+        font-size: 12px;
+    }
+
+    .progressBarNumbers {
+        margin-right: -40px;
+    }
+}
