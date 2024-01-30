@@ -55,6 +55,20 @@
 }
 
 @media (max-width: 768px) {
+    .progress_bar_underline {
+        left: 16px;
+        width: 106%;
+    }
+
+    .progressBarIcon {
+        margin-left: -30px;
+        font-size: 33px;
+        transform: translateY(-10px);
+    }
+}
+
+
+@media (max-width: 768px) {
     .progressBarIcon {
         margin-left: -30px;
         font-size: 33px;
