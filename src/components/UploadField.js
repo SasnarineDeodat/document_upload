@@ -1,4 +1,5 @@
 import document_icon from "../assets/document_icon.svg";
+import ProgressBar from "./ProgressBar";
 import "./UploadField.css";
 
 const UploadField = () => {
@@ -25,6 +26,7 @@ const UploadField = () => {
         </button>
       </label>
       <hr className="underline" />
+      <ProgressBar completed={10} />
     </div>
   );
 };

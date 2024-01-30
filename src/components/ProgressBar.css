@@ -1,0 +1,30 @@
+.progressBarContainer {
+    height: 20px;
+    width: 100%;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.progressBarIcon {
+    margin-right: 35px;
+    color: #FFA500;
+}
+
+.progressBarContainer {
+    height: 5px;
+    width: 90%;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    margin: 50px 50px 50px 45px;
+    display: flex;
+    align-items: center;
+}
+
+.progressBarLabel {
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
