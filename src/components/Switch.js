@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Switch.css";
+import Clock from "../assets/clock.png";
 
 const Switch = ({ isOn = false }) => {
   // provide a default value for isOn
@@ -33,7 +34,7 @@ const Switch = ({ isOn = false }) => {
           <img
             height={25}
             width={25}
-            src="./clock.png"
+            src={Clock}
             alt="Clock"
             className="clock_img"
           />
