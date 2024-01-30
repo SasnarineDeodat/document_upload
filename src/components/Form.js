@@ -5,7 +5,7 @@ import RightPart from "./RightPart";
 
 const Form = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="container">
       <div className="main_form_div">
         <Select fields={["React", "Node"]} />
         <div
@@ -22,7 +22,7 @@ const Form = () => {
           <UploadField />
         </div>
       </div>
-      <div style={{ marginLeft: "25px" }}>
+      <div className="right_part_main_div">
         <RightPart />
       </div>
     </div>
