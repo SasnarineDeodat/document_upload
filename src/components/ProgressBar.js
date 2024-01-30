@@ -23,6 +23,9 @@ const ProgressBar = ({ completed, text, numbers }) => {
         <span className="elapsed_dates">No Elapsed Dates!</span>
       </p>
       <hr className="progress_bar3_underline" />
+      <div className="tolerance_window">
+        <p>Tolerance Window:</p>
+      </div>
     </>
   );
 };

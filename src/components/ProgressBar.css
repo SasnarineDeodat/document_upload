@@ -130,3 +130,9 @@
     position: relative;
     margin-top: 16px;
 }
+
+.tolerance_window {
+    margin-top: 14px;
+    color: rgb(19, 68, 97);
+    font-weight: bold;
+}
