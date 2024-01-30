@@ -18,7 +18,11 @@ const ProgressBar = ({ completed, text, numbers }) => {
       </div>
       <hr className="progress_bar_underline" />
       <hr className="progress_bar2_underline" />
-      <p className="elapsed_text">Elapsed Data Checking:</p>
+      <p className="elapsed_text">
+        Elapsed Data Checking:{" "}
+        <span className="elapsed_dates">No Elapsed Dates!</span>
+      </p>
+      <hr className="progress_bar3_underline" />
     </>
   );
 };

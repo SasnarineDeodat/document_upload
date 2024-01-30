@@ -116,3 +116,17 @@
     font-weight: bold;
     margin-top: 20px;
 }
+
+.elapsed_dates {
+    display: flex;
+    margin-top: 12px;
+    color: rgb(3, 149, 3);
+}
+
+.progress_bar3_underline {
+    width: 80%;
+    border: none;
+    border-top: #e0e0de 2px solid;
+    position: relative;
+    margin-top: 16px;
+}
