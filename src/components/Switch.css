@@ -60,15 +60,6 @@
     margin-left: auto;
 }
 
-@media (max-width: 600px) {
-    .image-container {
-        flex-direction: column;
-    }
-
-    .image-text {
-        display: flex;
-        text-align: left;
-        margin-left: 0;
-        writing-mode: vertical-lr;
-    }
+.switch_divider {
+    margin-left: 10px;
 }

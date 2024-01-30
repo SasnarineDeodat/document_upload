@@ -28,9 +28,10 @@ const Switch = ({ isOn = false }) => {
           <span className={`react-switch-button`} />
         </label>
         <span style={{ marginLeft: 5 }} className="toggle_on">
-          {checked ? "Toggle ON" : "Toggle OFF"} |
+          {checked ? "Toggle ON" : "Toggle OFF"}
         </span>
         <div className="image-container">
+          <span className="switch_divider">|</span>
           <img
             height={25}
             width={25}
