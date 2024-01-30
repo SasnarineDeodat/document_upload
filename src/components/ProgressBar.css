@@ -31,3 +31,10 @@
     color: black;
     font-weight: bold;
 }
+
+.progressBarText {
+    margin-left: 25px;
+    color: #e0e0de;
+    font-size: 18px;
+    transform: translateY(-18px);
+}
