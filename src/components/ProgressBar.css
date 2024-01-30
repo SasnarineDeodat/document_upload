@@ -13,7 +13,6 @@
     color: #FFA500;
     font-size: 30px;
     transform: translateY(-14px);
-
 }
 
 .progressBarContainer {
@@ -47,36 +46,40 @@
     transform: translateY(-18px);
 }
 
-
 @media (max-width: 768px) {
     .progressBarIcon {
         margin-left: -30px;
-        font-size: 20px;
+        font-size: 33px;
         transform: translateY(-10px);
     }
 
-    .progressBarText, .progressBarNumbers {
+    .progressBarText {
         font-size: 14px;
+        margin-left: 20px;
         transform: translateY(-14px);
     }
 
     .progressBarNumbers {
-        margin-right: -50px;
+        font-size: 14px;
+        margin-right: -20px;
+        margin-top: -7px;
     }
 }
-
 
 @media (max-width: 480px) {
     .progressBarIcon {
         margin-left: -20px;
-        font-size: 16px;
+        font-size: 20px;
+        /* Increased font size */
     }
 
-    .progressBarText, .progressBarNumbers {
+    .progressBarText {
         font-size: 12px;
+        margin-left: 15px;
     }
 
     .progressBarNumbers {
+        font-size: 12px;
         margin-right: -40px;
     }
 }
