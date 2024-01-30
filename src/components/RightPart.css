@@ -133,12 +133,6 @@
 
 input[type=radio] {
     width: 30px;
-}
-
-input[type=radio]:checked {
-    border: 5px solid rgb(19, 68, 97) !important;
-}
-
-input[type=radio]:checked::before {
-    background: rgb(19, 68, 97) !important;
+    cursor: pointer;
+    accent-color: rgb(19, 68, 97);
 }

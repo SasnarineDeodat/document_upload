@@ -10,6 +10,7 @@
     color: rgb(19, 68, 97);
     font-weight: 600;
     font-size: 21px;
+    text-align: center;
 }
 
 .btns {
@@ -18,7 +19,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    width: 650px;
 }
 
 .btns button {
@@ -57,4 +57,15 @@
 
 .btn2:active {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 630px) {
+    .btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btns button {
+        width: 100%;
+    }
 }
