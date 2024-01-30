@@ -7,7 +7,9 @@ const Form = () => {
   return (
     <div className="container">
       <div className="main_form_div">
-        <Select fields={["React", "Node"]} placeholder="Select Import Type" />
+        <div className="select_container">
+          <Select fields={["React", "Node"]} placeholder="Select Import Type" />
+        </div>
         <div
           style={{
             display: "flex",
