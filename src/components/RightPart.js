@@ -8,11 +8,11 @@ const RightPart = () => {
           <span>Split schedule using social distanting?</span>
           <div className="swichers">
             <div>
-              <input type="radio" value={"Yes"} />
+              <input type="radio" value={"Yes"} name="split_schedule" />
               <span>Yes</span>
             </div>
             <div>
-              <input type="radio" value={"No"} />
+              <input type="radio" value={"No"} name="split_schedule" />
               <span>No</span>
             </div>
           </div>
@@ -25,11 +25,11 @@ const RightPart = () => {
           <span>Client:</span>
           <div className="swichers2">
             <div>
-              <input type="radio" value={"Single"} />
+              <input type="radio" value={"Single"} name="client" />
               <span>Single</span>
             </div>
             <div>
-              <input type="radio" value={"Multiple"} />
+              <input type="radio" value={"Multiple"} name="client" />
               <span>Multiple</span>
             </div>
           </div>
