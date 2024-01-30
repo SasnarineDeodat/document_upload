@@ -9,16 +9,19 @@
 }
 
 .progressBarIcon {
-    margin-right: 35px;
+    margin-left: -40px;
     color: #FFA500;
+    font-size: 30px;
+    transform: translateY(-14px);
+
 }
 
 .progressBarContainer {
     height: 5px;
-    width: 90%;
+    width: 85%;
     background-color: #e0e0de;
     border-radius: 50px;
-    margin: 50px 50px 50px 45px;
+    margin: 50px 50px 50px 60px;
     display: flex;
     align-items: center;
 }
