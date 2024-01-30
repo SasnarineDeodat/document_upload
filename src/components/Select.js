@@ -6,8 +6,12 @@ const Select = ({ fields, placeholder }) => {
       <select
         name="import_type"
         className="select_name"
+        defaultValue=""
         placeholder={placeholder}
       >
+        <option value="" disabled hidden>
+          {placeholder}
+        </option>
         {fields.map((field) => (
           <option value={field} key={field}>
             {field}

@@ -30,4 +30,6 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    border-color: rgb(19, 68, 97);
+    cursor: pointer;
 }
