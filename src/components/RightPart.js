@@ -1,5 +1,6 @@
 import "./RightPart.css";
 import Select from "./Select";
+import Clock from "../assets/clock.png";
 
 const RightPart = () => {
   return (
@@ -62,7 +63,7 @@ const RightPart = () => {
                     fields={["Sasnarine", "Bailey"]}
                   />
                 </div>
-                <img height={25} width={25} src="./clock.png" />
+                <img height={25} width={25} src={Clock} alt="clock_img" />
               </div>
             </div>
             <div
@@ -89,7 +90,7 @@ const RightPart = () => {
                     fields={["Sasnarine", "Bailey"]}
                   />
                 </div>
-                <img height={25} width={25} src="./clock.png" />
+                <img height={25} width={25} src={Clock} alt="clock_img" />
               </div>
             </div>
             <div
@@ -116,7 +117,7 @@ const RightPart = () => {
                     fields={["Sasnarine", "Bailey"]}
                   />
                 </div>
-                <img height={25} width={25} src="./clock.png" />
+                <img height={25} width={25} src={Clock} alt="clock_img" />
               </div>
             </div>
             <div
@@ -143,7 +144,7 @@ const RightPart = () => {
                     fields={["Sasnarine", "Bailey"]}
                   />
                 </div>
-                <img height={25} width={25} src="./clock.png" />
+                <img height={25} width={25} src={Clock} alt="clock_img" />
               </div>
             </div>
           </div>
