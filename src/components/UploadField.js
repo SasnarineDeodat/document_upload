@@ -15,7 +15,7 @@ const UploadField = () => {
     const file = e.target.files[0];
     setFileName(file.name);
     let fileSizeInMB = (file.size / (1024 * 1024)).toFixed(2);
-    if (fileSizeInMB == 0.0) {
+    if (fileSizeInMB === 0.0) {
       fileSizeInMB = 0.01;
     }
     setFileSize(fileSizeInMB);
@@ -30,7 +30,7 @@ const UploadField = () => {
     const file = e.dataTransfer.files[0];
     setFileName(file.name);
     let fileSizeInMB = (file.size / (1024 * 1024)).toFixed(2);
-    if (fileSizeInMB == 0.0) {
+    if (fileSizeInMB === 0.0) {
       fileSizeInMB = 0.01;
     }
     setFileSize(fileSizeInMB);
