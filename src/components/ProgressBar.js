@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProgressBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";

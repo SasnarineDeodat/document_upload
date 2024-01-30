@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Switch.css";
 
-const Switch = ({ isOn }) => {
+const Switch = ({ isOn = false }) => {
+  // provide a default value for isOn
   const [checked, setChecked] = useState(isOn);
 
   const handleToggle = () => {
@@ -29,7 +30,13 @@ const Switch = ({ isOn }) => {
           {checked ? "Toggle ON" : "Toggle OFF"} |
         </span>
         <div className="image-container">
-          <img height={25} width={25} src="./clock.png" className="clock_img" />
+          <img
+            height={25}
+            width={25}
+            src="./clock.png"
+            alt="Clock"
+            className="clock_img"
+          />
           <span className="image-text">Select Tolerance Level</span>
         </div>
       </div>

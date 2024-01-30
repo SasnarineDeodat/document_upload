@@ -4,8 +4,8 @@ import "./UploadField.css";
 import { useState } from "react";
 
 const UploadField = () => {
-  const [fileName, setFileName] = useState();
-  const [fileSize, setFileSize] = useState();
+  const [fileName, setFileName] = useState("");
+  const [fileSize, setFileSize] = useState(0);
 
   const handleImageUpload = () => {
     document.getElementById("fileUpload").click();
