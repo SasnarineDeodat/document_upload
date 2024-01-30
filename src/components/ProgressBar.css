@@ -41,7 +41,7 @@
 .progressBarNumbers {
     margin-left: auto;
     margin-right: -62px;
-    color: #e0e0de;
+    color: rgb(122, 133, 140);
     font-size: 18px;
     transform: translateY(-18px);
 }
