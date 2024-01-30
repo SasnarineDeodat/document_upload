@@ -55,13 +55,7 @@ const UploadField = () => {
         </button>
       </label>
       <hr className="underline" />
-      {fileName && (
-        <ProgressBar
-          completed={10}
-          text={fileName}
-          numbers={`${fileSize} MB`}
-        />
-      )}
+      <ProgressBar completed={10} text={fileName} numbers={`${fileSize} MB`} />
     </div>
   );
 };
